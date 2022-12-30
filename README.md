@@ -4,7 +4,7 @@
 Introduction to jetpack compose widgets: This repo will teach you some of the common widgets that are available in jetpack compose SDK, & shows you how to use them for your UI design.<br>
 ## Widgets List:
 
-1. [Buttons](app/src/main/java/com/example/composewidgets/widgets/buttons/Buttons.kt) > Buttons, Radio Button, Toggle Button, Checkbox
+1. [Buttons](app/src/main/java/com/example/composewidgets/widgets/buttons/Buttons.kt) > [Radio Button](app/src/main/java/com/example/composewidgets/widgets/buttons/RadioButton.kt) > [Toggle Button](app/src/main/java/com/example/composewidgets/widgets/buttons/CustomToggleButton.kt)
 
 
 ## Screenshots:
@@ -13,7 +13,7 @@ Introduction to jetpack compose widgets: This repo will teach you some of the co
   <tr>
     <td>
         <div style="text-align: center;">
-            <img src="https://user-images.githubusercontent.com/65107679/209989621-56b84c43-25d9-417b-8176-3009ba14d1f3.gif" height="250px"/>
+            <img src="app/src/assets/images/buttons.gif" height="250px"/>
             <p><a href="app/src/main/java/com/example/composewidgets/widgets/buttons/Buttons.kt" target="_blank">Buttons</a></p>
         </div>
     </td>
@@ -33,5 +33,5 @@ Introduction to jetpack compose widgets: This repo will teach you some of the co
     </td>
    
   </tr>
-
+ 
 </table>
