@@ -1,4 +1,4 @@
-package com.example.composewidgets.widgets
+package com.example.composewidgets.widgets.buttons
 
 import androidx.compose.material.RadioButton
 import androidx.compose.runtime.*

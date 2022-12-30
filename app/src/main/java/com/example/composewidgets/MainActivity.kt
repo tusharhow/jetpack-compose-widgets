@@ -4,11 +4,10 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.*
-import androidx.compose.material.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import com.example.composewidgets.ui.theme.ComposeWidgetsTheme
-import com.example.composewidgets.widgets.*
+import com.example.composewidgets.widgets.buttons.CustomToggleButton
 
 
 class MainActivity : ComponentActivity() {

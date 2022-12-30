@@ -1,4 +1,4 @@
-package com.example.composewidgets.widgets
+package com.example.composewidgets.widgets.buttons
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable

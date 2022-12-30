@@ -1,9 +1,8 @@
-package com.example.composewidgets.widgets
+package com.example.composewidgets.widgets.buttons
 
 
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.tooling.preview.Preview
 import android.content.Context
 import android.widget.Toast
 import androidx.compose.foundation.layout.*
@@ -17,7 +16,6 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.composewidgets.ui.theme.ComposeWidgetsTheme
 
 
 fun showToast(context: Context, message: String) {
@@ -81,7 +79,7 @@ fun  MyTextButton(){
 @Composable
 fun ButtonCornerShape() {
     val context = LocalContext.current
-    Button(onClick = {showToast(context, message = "Corner Shape Button Clicked") }, shape = CutCornerShape(4.dp), modifier = Modifier
+    Button(onClick = { showToast(context, message = "Corner Shape Button Clicked") }, shape = CutCornerShape(4.dp), modifier = Modifier
         .height(50.dp)
         .width(250.dp)) {
         Text(text = "Cut corner shape",fontSize = 20.sp)
