@@ -27,7 +27,7 @@ fun LazyVerticalGridDemo(){
             start = 12.dp,
             top = 16.dp,
             end = 12.dp,
-            bottom = 16.dp
+            bottom = 16.dp,
         ),
         content = {
             items(list.size) { index ->
@@ -37,6 +37,7 @@ fun LazyVerticalGridDemo(){
                         .padding(4.dp)
                         .fillMaxWidth(),
                     elevation = 8.dp,
+
                 ) {
                     Text(
                         text = list[index],
@@ -44,7 +45,7 @@ fun LazyVerticalGridDemo(){
                         fontSize = 30.sp,
                         color = Color(0xFFFFFFFF),
                         textAlign = TextAlign.Center,
-                        modifier = Modifier.padding(16.dp)
+                        modifier = Modifier.padding(16.dp),
                     )
                 }
             }
